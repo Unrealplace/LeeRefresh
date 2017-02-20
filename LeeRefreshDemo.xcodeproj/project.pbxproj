@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B3C7971E5ACA3000EEF128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7961E5ACA3000EEF128 /* main.m */; };
+		04B3C79A1E5ACA3000EEF128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7991E5ACA3000EEF128 /* AppDelegate.m */; };
+		04B3C79D1E5ACA3000EEF128 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C79C1E5ACA3000EEF128 /* ViewController.m */; };
+		04B3C7A01E5ACA3000EEF128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3C79E1E5ACA3000EEF128 /* Main.storyboard */; };
+		04B3C7A21E5ACA3000EEF128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3C7A11E5ACA3000EEF128 /* Assets.xcassets */; };
+		04B3C7A51E5ACA3000EEF128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B3C7A31E5ACA3000EEF128 /* LaunchScreen.storyboard */; };
+		04B3C7B01E5ACA3000EEF128 /* LeeRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7AF1E5ACA3000EEF128 /* LeeRefreshDemoTests.m */; };
+		04B3C7BB1E5ACA3100EEF128 /* LeeRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7BA1E5ACA3100EEF128 /* LeeRefreshDemoUITests.m */; };
+		04B3C7D81E5ACB2A00EEF128 /* CAShapeLayer+LeeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7CA1E5ACB2A00EEF128 /* CAShapeLayer+LeeRefresh.m */; };
+		04B3C7D91E5ACB2A00EEF128 /* LeeRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7CD1E5ACB2A00EEF128 /* LeeRefreshFooter.m */; };
+		04B3C7DA1E5ACB2A00EEF128 /* LeeRefreshHeader+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7CF1E5ACB2A00EEF128 /* LeeRefreshHeader+Animation.m */; };
+		04B3C7DB1E5ACB2A00EEF128 /* LeeRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7D11E5ACB2A00EEF128 /* LeeRefreshHeader.m */; };
+		04B3C7DC1E5ACB2A00EEF128 /* LeeRefreshLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7D31E5ACB2A00EEF128 /* LeeRefreshLoadView.m */; };
+		04B3C7DD1E5ACB2A00EEF128 /* UIScrollView+LeeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7D51E5ACB2A00EEF128 /* UIScrollView+LeeRefresh.m */; };
+		04B3C7DE1E5ACB2A00EEF128 /* UIView+LeeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7D71E5ACB2A00EEF128 /* UIView+LeeRefresh.m */; };
+		04B3C7E51E5ACB8400EEF128 /* refreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C7E41E5ACB8400EEF128 /* refreshVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B3C7AC1E5ACA3000EEF128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B3C78A1E5ACA3000EEF128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B3C7911E5ACA3000EEF128;
+			remoteInfo = LeeRefreshDemo;
+		};
+		04B3C7B71E5ACA3100EEF128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B3C78A1E5ACA3000EEF128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B3C7911E5ACA3000EEF128;
+			remoteInfo = LeeRefreshDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B3C7921E5ACA3000EEF128 /* LeeRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B3C7961E5ACA3000EEF128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B3C7981E5ACA3000EEF128 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B3C7991E5ACA3000EEF128 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B3C79B1E5ACA3000EEF128 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B3C79C1E5ACA3000EEF128 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B3C79F1E5ACA3000EEF128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B3C7A11E5ACA3000EEF128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B3C7A41E5ACA3000EEF128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B3C7A61E5ACA3000EEF128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3C7AB1E5ACA3000EEF128 /* LeeRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B3C7AF1E5ACA3000EEF128 /* LeeRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeRefreshDemoTests.m; sourceTree = "<group>"; };
+		04B3C7B11E5ACA3000EEF128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3C7B61E5ACA3100EEF128 /* LeeRefreshDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeRefreshDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B3C7BA1E5ACA3100EEF128 /* LeeRefreshDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeRefreshDemoUITests.m; sourceTree = "<group>"; };
+		04B3C7BC1E5ACA3100EEF128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3C7C91E5ACB2A00EEF128 /* CAShapeLayer+LeeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+LeeRefresh.h"; sourceTree = "<group>"; };
+		04B3C7CA1E5ACB2A00EEF128 /* CAShapeLayer+LeeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+LeeRefresh.m"; sourceTree = "<group>"; };
+		04B3C7CB1E5ACB2A00EEF128 /* LeeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeRefresh.h; sourceTree = "<group>"; };
+		04B3C7CC1E5ACB2A00EEF128 /* LeeRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeRefreshFooter.h; sourceTree = "<group>"; };
+		04B3C7CD1E5ACB2A00EEF128 /* LeeRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeRefreshFooter.m; sourceTree = "<group>"; };
+		04B3C7CE1E5ACB2A00EEF128 /* LeeRefreshHeader+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LeeRefreshHeader+Animation.h"; sourceTree = "<group>"; };
+		04B3C7CF1E5ACB2A00EEF128 /* LeeRefreshHeader+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LeeRefreshHeader+Animation.m"; sourceTree = "<group>"; };
+		04B3C7D01E5ACB2A00EEF128 /* LeeRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeRefreshHeader.h; sourceTree = "<group>"; };
+		04B3C7D11E5ACB2A00EEF128 /* LeeRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeRefreshHeader.m; sourceTree = "<group>"; };
+		04B3C7D21E5ACB2A00EEF128 /* LeeRefreshLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeRefreshLoadView.h; sourceTree = "<group>"; };
+		04B3C7D31E5ACB2A00EEF128 /* LeeRefreshLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeRefreshLoadView.m; sourceTree = "<group>"; };
+		04B3C7D41E5ACB2A00EEF128 /* UIScrollView+LeeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LeeRefresh.h"; sourceTree = "<group>"; };
+		04B3C7D51E5ACB2A00EEF128 /* UIScrollView+LeeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LeeRefresh.m"; sourceTree = "<group>"; };
+		04B3C7D61E5ACB2A00EEF128 /* UIView+LeeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LeeRefresh.h"; sourceTree = "<group>"; };
+		04B3C7D71E5ACB2A00EEF128 /* UIView+LeeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LeeRefresh.m"; sourceTree = "<group>"; };
+		04B3C7DF1E5ACB4300EEF128 /* LeeCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeCommonHeader.h; sourceTree = "<group>"; };
+		04B3C7E31E5ACB8400EEF128 /* refreshVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = refreshVC.h; sourceTree = "<group>"; };
+		04B3C7E41E5ACB8400EEF128 /* refreshVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = refreshVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B3C78F1E5ACA3000EEF128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B3C7A81E5ACA3000EEF128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B3C7B31E5ACA3100EEF128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B3C7891E5ACA3000EEF128 = {
+			isa = PBXGroup;
+			children = (
+				04B3C7941E5ACA3000EEF128 /* LeeRefreshDemo */,
+				04B3C7AE1E5ACA3000EEF128 /* LeeRefreshDemoTests */,
+				04B3C7B91E5ACA3100EEF128 /* LeeRefreshDemoUITests */,
+				04B3C7931E5ACA3000EEF128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B3C7931E5ACA3000EEF128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C7921E5ACA3000EEF128 /* LeeRefreshDemo.app */,
+				04B3C7AB1E5ACA3000EEF128 /* LeeRefreshDemoTests.xctest */,
+				04B3C7B61E5ACA3100EEF128 /* LeeRefreshDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B3C7941E5ACA3000EEF128 /* LeeRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C7C81E5ACB2A00EEF128 /* LeeRefresh */,
+				04B3C7981E5ACA3000EEF128 /* AppDelegate.h */,
+				04B3C7991E5ACA3000EEF128 /* AppDelegate.m */,
+				04B3C79B1E5ACA3000EEF128 /* ViewController.h */,
+				04B3C79C1E5ACA3000EEF128 /* ViewController.m */,
+				04B3C7DF1E5ACB4300EEF128 /* LeeCommonHeader.h */,
+				04B3C7E31E5ACB8400EEF128 /* refreshVC.h */,
+				04B3C7E41E5ACB8400EEF128 /* refreshVC.m */,
+				04B3C79E1E5ACA3000EEF128 /* Main.storyboard */,
+				04B3C7A11E5ACA3000EEF128 /* Assets.xcassets */,
+				04B3C7A31E5ACA3000EEF128 /* LaunchScreen.storyboard */,
+				04B3C7A61E5ACA3000EEF128 /* Info.plist */,
+				04B3C7951E5ACA3000EEF128 /* Supporting Files */,
+			);
+			path = LeeRefreshDemo;
+			sourceTree = "<group>";
+		};
+		04B3C7951E5ACA3000EEF128 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C7961E5ACA3000EEF128 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B3C7AE1E5ACA3000EEF128 /* LeeRefreshDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C7AF1E5ACA3000EEF128 /* LeeRefreshDemoTests.m */,
+				04B3C7B11E5ACA3000EEF128 /* Info.plist */,
+			);
+			path = LeeRefreshDemoTests;
+			sourceTree = "<group>";
+		};
+		04B3C7B91E5ACA3100EEF128 /* LeeRefreshDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C7BA1E5ACA3100EEF128 /* LeeRefreshDemoUITests.m */,
+				04B3C7BC1E5ACA3100EEF128 /* Info.plist */,
+			);
+			path = LeeRefreshDemoUITests;
+			sourceTree = "<group>";
+		};
+		04B3C7C81E5ACB2A00EEF128 /* LeeRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				04B3C7C91E5ACB2A00EEF128 /* CAShapeLayer+LeeRefresh.h */,
+				04B3C7CA1E5ACB2A00EEF128 /* CAShapeLayer+LeeRefresh.m */,
+				04B3C7CB1E5ACB2A00EEF128 /* LeeRefresh.h */,
+				04B3C7CC1E5ACB2A00EEF128 /* LeeRefreshFooter.h */,
+				04B3C7CD1E5ACB2A00EEF128 /* LeeRefreshFooter.m */,
+				04B3C7CE1E5ACB2A00EEF128 /* LeeRefreshHeader+Animation.h */,
+				04B3C7CF1E5ACB2A00EEF128 /* LeeRefreshHeader+Animation.m */,
+				04B3C7D01E5ACB2A00EEF128 /* LeeRefreshHeader.h */,
+				04B3C7D11E5ACB2A00EEF128 /* LeeRefreshHeader.m */,
+				04B3C7D21E5ACB2A00EEF128 /* LeeRefreshLoadView.h */,
+				04B3C7D31E5ACB2A00EEF128 /* LeeRefreshLoadView.m */,
+				04B3C7D41E5ACB2A00EEF128 /* UIScrollView+LeeRefresh.h */,
+				04B3C7D51E5ACB2A00EEF128 /* UIScrollView+LeeRefresh.m */,
+				04B3C7D61E5ACB2A00EEF128 /* UIView+LeeRefresh.h */,
+				04B3C7D71E5ACB2A00EEF128 /* UIView+LeeRefresh.m */,
+			);
+			path = LeeRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B3C7911E5ACA3000EEF128 /* LeeRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B3C7BF1E5ACA3100EEF128 /* Build configuration list for PBXNativeTarget "LeeRefreshDemo" */;
+			buildPhases = (
+				04B3C78E1E5ACA3000EEF128 /* Sources */,
+				04B3C78F1E5ACA3000EEF128 /* Frameworks */,
+				04B3C7901E5ACA3000EEF128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeeRefreshDemo;
+			productName = LeeRefreshDemo;
+			productReference = 04B3C7921E5ACA3000EEF128 /* LeeRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B3C7AA1E5ACA3000EEF128 /* LeeRefreshDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B3C7C21E5ACA3100EEF128 /* Build configuration list for PBXNativeTarget "LeeRefreshDemoTests" */;
+			buildPhases = (
+				04B3C7A71E5ACA3000EEF128 /* Sources */,
+				04B3C7A81E5ACA3000EEF128 /* Frameworks */,
+				04B3C7A91E5ACA3000EEF128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B3C7AD1E5ACA3000EEF128 /* PBXTargetDependency */,
+			);
+			name = LeeRefreshDemoTests;
+			productName = LeeRefreshDemoTests;
+			productReference = 04B3C7AB1E5ACA3000EEF128 /* LeeRefreshDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B3C7B51E5ACA3100EEF128 /* LeeRefreshDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B3C7C51E5ACA3100EEF128 /* Build configuration list for PBXNativeTarget "LeeRefreshDemoUITests" */;
+			buildPhases = (
+				04B3C7B21E5ACA3100EEF128 /* Sources */,
+				04B3C7B31E5ACA3100EEF128 /* Frameworks */,
+				04B3C7B41E5ACA3100EEF128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B3C7B81E5ACA3100EEF128 /* PBXTargetDependency */,
+			);
+			name = LeeRefreshDemoUITests;
+			productName = LeeRefreshDemoUITests;
+			productReference = 04B3C7B61E5ACA3100EEF128 /* LeeRefreshDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B3C78A1E5ACA3000EEF128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "https://github.com/Unrealplace     如有问题可以联系：939428468";
+				TargetAttributes = {
+					04B3C7911E5ACA3000EEF128 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					04B3C7AA1E5ACA3000EEF128 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04B3C7911E5ACA3000EEF128;
+					};
+					04B3C7B51E5ACA3100EEF128 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04B3C7911E5ACA3000EEF128;
+					};
+				};
+			};
+			buildConfigurationList = 04B3C78D1E5ACA3000EEF128 /* Build configuration list for PBXProject "LeeRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B3C7891E5ACA3000EEF128;
+			productRefGroup = 04B3C7931E5ACA3000EEF128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B3C7911E5ACA3000EEF128 /* LeeRefreshDemo */,
+				04B3C7AA1E5ACA3000EEF128 /* LeeRefreshDemoTests */,
+				04B3C7B51E5ACA3100EEF128 /* LeeRefreshDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B3C7901E5ACA3000EEF128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3C7A51E5ACA3000EEF128 /* LaunchScreen.storyboard in Resources */,
+				04B3C7A21E5ACA3000EEF128 /* Assets.xcassets in Resources */,
+				04B3C7A01E5ACA3000EEF128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B3C7A91E5ACA3000EEF128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B3C7B41E5ACA3100EEF128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B3C78E1E5ACA3000EEF128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3C7D91E5ACB2A00EEF128 /* LeeRefreshFooter.m in Sources */,
+				04B3C79D1E5ACA3000EEF128 /* ViewController.m in Sources */,
+				04B3C79A1E5ACA3000EEF128 /* AppDelegate.m in Sources */,
+				04B3C7DE1E5ACB2A00EEF128 /* UIView+LeeRefresh.m in Sources */,
+				04B3C7DD1E5ACB2A00EEF128 /* UIScrollView+LeeRefresh.m in Sources */,
+				04B3C7DB1E5ACB2A00EEF128 /* LeeRefreshHeader.m in Sources */,
+				04B3C7D81E5ACB2A00EEF128 /* CAShapeLayer+LeeRefresh.m in Sources */,
+				04B3C7DA1E5ACB2A00EEF128 /* LeeRefreshHeader+Animation.m in Sources */,
+				04B3C7971E5ACA3000EEF128 /* main.m in Sources */,
+				04B3C7E51E5ACB8400EEF128 /* refreshVC.m in Sources */,
+				04B3C7DC1E5ACB2A00EEF128 /* LeeRefreshLoadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B3C7A71E5ACA3000EEF128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3C7B01E5ACA3000EEF128 /* LeeRefreshDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B3C7B21E5ACA3100EEF128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B3C7BB1E5ACA3100EEF128 /* LeeRefreshDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B3C7AD1E5ACA3000EEF128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B3C7911E5ACA3000EEF128 /* LeeRefreshDemo */;
+			targetProxy = 04B3C7AC1E5ACA3000EEF128 /* PBXContainerItemProxy */;
+		};
+		04B3C7B81E5ACA3100EEF128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B3C7911E5ACA3000EEF128 /* LeeRefreshDemo */;
+			targetProxy = 04B3C7B71E5ACA3100EEF128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B3C79E1E5ACA3000EEF128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B3C79F1E5ACA3000EEF128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B3C7A31E5ACA3000EEF128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B3C7A41E5ACA3000EEF128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B3C7BD1E5ACA3100EEF128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B3C7BE1E5ACA3100EEF128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B3C7C01E5ACA3100EEF128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = LeeRefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianyingye.LeeRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B3C7C11E5ACA3100EEF128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = LeeRefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianyingye.LeeRefreshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B3C7C31E5ACA3100EEF128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeeRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianyingye.LeeRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeRefreshDemo.app/LeeRefreshDemo";
+			};
+			name = Debug;
+		};
+		04B3C7C41E5ACA3100EEF128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeeRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianyingye.LeeRefreshDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeRefreshDemo.app/LeeRefreshDemo";
+			};
+			name = Release;
+		};
+		04B3C7C61E5ACA3100EEF128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeeRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianyingye.LeeRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeeRefreshDemo;
+			};
+			name = Debug;
+		};
+		04B3C7C71E5ACA3100EEF128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeeRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitianyingye.LeeRefreshDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeeRefreshDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B3C78D1E5ACA3000EEF128 /* Build configuration list for PBXProject "LeeRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3C7BD1E5ACA3100EEF128 /* Debug */,
+				04B3C7BE1E5ACA3100EEF128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B3C7BF1E5ACA3100EEF128 /* Build configuration list for PBXNativeTarget "LeeRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3C7C01E5ACA3100EEF128 /* Debug */,
+				04B3C7C11E5ACA3100EEF128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B3C7C21E5ACA3100EEF128 /* Build configuration list for PBXNativeTarget "LeeRefreshDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3C7C31E5ACA3100EEF128 /* Debug */,
+				04B3C7C41E5ACA3100EEF128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B3C7C51E5ACA3100EEF128 /* Build configuration list for PBXNativeTarget "LeeRefreshDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3C7C61E5ACA3100EEF128 /* Debug */,
+				04B3C7C71E5ACA3100EEF128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B3C78A1E5ACA3000EEF128 /* Project object */;
+}

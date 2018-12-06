@@ -25,6 +25,12 @@
     refreshVC * vc = [[refreshVC alloc] init];
     
     [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController pushViewController:vc animated:YES];
+
+    [self.navigationController pushViewController:vc animated:YES];
+
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -31,6 +31,8 @@
     [self.navigationController pushViewController:vc animated:YES];
 
     [self.navigationController pushViewController:vc animated:YES];
+    
+    NSLog(@"我是来解决1.0.2版本bugs");
 
 }
 

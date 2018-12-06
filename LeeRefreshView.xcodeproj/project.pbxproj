@@ -22,6 +22,7 @@
 		0491CDD51E5BD5850023F670 /* UIView+LeeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491CDD41E5BD5850023F670 /* UIView+LeeRefresh.m */; };
 		0491CDD91E5BDDF50023F670 /* UIScrollView+LeeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491CDD81E5BDDF50023F670 /* UIScrollView+LeeRefresh.m */; };
 		0491CDDF1E5C303E0023F670 /* LeeHeaderAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491CDDE1E5C303E0023F670 /* LeeHeaderAnimationView.m */; };
+		8F6D0AE221B906A9004217B3 /* PGTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D0AE121B906A9004217B3 /* PGTestView.m */; };
 		B6B38FC21E5D81D700B7D760 /* LeeRefreshLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B38FC11E5D81D700B7D760 /* LeeRefreshLoadView.m */; };
 		B6B38FC51E5D82CB00B7D760 /* LeeFooterAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B38FC41E5D82CB00B7D760 /* LeeFooterAnimationView.m */; };
 		B6B38FC81E5D864700B7D760 /* UILabel+LabelWithSize.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B38FC71E5D864700B7D760 /* UILabel+LabelWithSize.m */; };
@@ -78,6 +79,8 @@
 		0491CDD81E5BDDF50023F670 /* UIScrollView+LeeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LeeRefresh.m"; sourceTree = "<group>"; };
 		0491CDDD1E5C303E0023F670 /* LeeHeaderAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeHeaderAnimationView.h; sourceTree = "<group>"; };
 		0491CDDE1E5C303E0023F670 /* LeeHeaderAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeHeaderAnimationView.m; sourceTree = "<group>"; };
+		8F6D0AE021B906A9004217B3 /* PGTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGTestView.h; sourceTree = "<group>"; };
+		8F6D0AE121B906A9004217B3 /* PGTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGTestView.m; sourceTree = "<group>"; };
 		B6B38FC01E5D81D700B7D760 /* LeeRefreshLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeRefreshLoadView.h; sourceTree = "<group>"; };
 		B6B38FC11E5D81D700B7D760 /* LeeRefreshLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeeRefreshLoadView.m; sourceTree = "<group>"; };
 		B6B38FC31E5D82CB00B7D760 /* LeeFooterAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeeFooterAnimationView.h; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				0491CD991E5BD1590023F670 /* ViewController.m */,
 				0491CDC61E5BD1F80023F670 /* refreshVC.h */,
 				0491CDC51E5BD1F80023F670 /* refreshVC.m */,
+				8F6D0AE021B906A9004217B3 /* PGTestView.h */,
+				8F6D0AE121B906A9004217B3 /* PGTestView.m */,
 				0491CDC81E5BD24A0023F670 /* LeeCommonHeader.h */,
 				0491CD9B1E5BD1590023F670 /* Main.storyboard */,
 				0491CD9E1E5BD1590023F670 /* Assets.xcassets */,
@@ -345,6 +350,7 @@
 				0491CD9A1E5BD1590023F670 /* ViewController.m in Sources */,
 				0491CD971E5BD1590023F670 /* AppDelegate.m in Sources */,
 				0491CDDF1E5C303E0023F670 /* LeeHeaderAnimationView.m in Sources */,
+				8F6D0AE221B906A9004217B3 /* PGTestView.m in Sources */,
 				0491CDD91E5BDDF50023F670 /* UIScrollView+LeeRefresh.m in Sources */,
 				0491CDC71E5BD1F80023F670 /* refreshVC.m in Sources */,
 				0491CD941E5BD1590023F670 /* main.m in Sources */,

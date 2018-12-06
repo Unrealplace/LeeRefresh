@@ -15,6 +15,8 @@
 @property (nonatomic ,strong )UITableView * tableView;
 @property (nonatomic ,strong )NSMutableArray     * dataSource;
 @property (nonatomic ,strong)UIButton *btn;
+@property (nonatomic ,strong)UIButton *btn1;
+
 @end
 
 @implementation refreshVC

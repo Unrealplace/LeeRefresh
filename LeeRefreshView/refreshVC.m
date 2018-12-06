@@ -15,6 +15,9 @@
 @property (nonatomic ,strong )UITableView * tableView;
 @property (nonatomic ,strong )NSMutableArray     * dataSource;
 @property (nonatomic ,strong)UIButton *btn;
+
+@property (nonatomic, strong)UILabel *titleLabel;//1.0.1版本修改
+
 @end
 
 @implementation refreshVC

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "refreshVC.h"
+#import "PGTestView.h"
 
 @interface ViewController ()
 
